@@ -8,6 +8,9 @@
     text-decoration: none;
     font-family: "Rubik", sans-serif;
 }
+Body{
+    background-color: #191919;
+}
 /*Header-Start*/
 header{
     padding: 10px 10px;
@@ -39,24 +42,25 @@ a:hover{
     text-align: center;
 }
 h1{
+    color: white;
     font-size: 65px;
     font-weight: 500px;
     margin: 10px;
     padding: 10px 0px;
 }
 p{
+    color: white;
     font-size: 20px;
 }
 .btn-Main{
+    border: white solid 2px;
     cursor: pointer;
-    color: white;
-    background-color: #191919;
     margin: 30px;
     padding: 10px 25px;
     font-size: large;
     border-radius: 50px;
 }
 .btn-Main:hover{
-    color: #191919;
-    background-color: white;
+    color: white;
+    background-color: #191919;
 }
